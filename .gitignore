@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python virtual environments
+env/
+venv/
+.venv/
+
+# Anaconda project files and environments
+.anaconda_backup/
+anaconda-project-local.yml
+**/anaconda_projects/
+**/*.db
+
+# Data files
+data/raw/
+data/processed/
+
+# Model files
+models/*.pkl
+*.h5
+*.joblib
+
+# Reports and figures (optional: keep if reproducible)
+reports/figures/
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# VSCode settings
+.vscode/
+
+# Environment and dependency files (optional)
+*.env
+.env
+
+# Log files
+*.log
+
